@@ -24,9 +24,13 @@ to start and check your code is ok:
 
 To apply and built your work:
 
-      terraform apply
+      terraform apply -auto-approve
 
 After work is done you can use this command to delete your work:
 
-    terraform destroy
+    terraform destroy -auto-approve
+
+But also before delete you can check what you will delete from here:
+
+     terraform plan -destroy
       
